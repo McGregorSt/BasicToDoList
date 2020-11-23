@@ -1,0 +1,38 @@
+.newToDo {
+    margin: 40px auto;
+    width: 400px;
+    background-color: rgb(224, 228, 22);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.newToDo label {
+    margin: 5px 40px;
+    align-self: start;
+}
+
+.newToDo input, textarea {
+    width: 80%;
+    background-color: rgba(216, 216, 216, 0.781); 
+    border: 5px solid rgba(19, 16, 16, 0.582);
+    outline: none;
+    padding: 5px 2px;
+    rows: 5;
+}
+
+textarea {
+    height: 50px;
+}
+
+.newToDo button {
+    margin: 20px;
+    height: 32px;
+    width: 40%;
+    background-color: rgba(216, 216, 216, 0.781);
+    outline: rgba(216, 216, 216, 0.781);
+    border: 1px solid rgba(19, 16, 16, 0.089);
+}
